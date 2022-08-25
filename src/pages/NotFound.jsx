@@ -1,7 +1,11 @@
 function NotFound() {
   return (
-    <div>La página a la que querés acceder no se encuentra a o no existe.</div>
-  )
+    <div>
+      <h1 className="d-flex justify-content-center">
+        La página a la que querés acceder no se encuentra a o no existe.
+      </h1>
+    </div>
+  );
 }
 
-export default NotFound
+export default NotFound;
